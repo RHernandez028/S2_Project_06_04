@@ -13,3 +13,51 @@
 
 */
 
+/* Body */
+body{
+    display: block;
+    max-width: 960px;
+    min-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(br_paper.png) fixed;
+}
+
+/* Header and Nav */
+header img{
+    display: block;
+    width: 100%;
+
+}
+
+header > nav {
+    display: table;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+nav > ul {
+    display: table-row;
+}
+
+header > nav > ul > li{
+    display: table-cell;
+    text-align: center;
+}
+
+header > nav > ul > li > a {
+    display: block;
+    text-align: center;  
+}
+
+/* Aside */
+aside.left{
+    display: block;  
+    float: left;
+}
+
+aside
+/* Article */
+
+
+/* Images */
