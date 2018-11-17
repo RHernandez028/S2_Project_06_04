@@ -69,6 +69,7 @@ aside.left {
 
 aside.left h1{
     text-align: center;
+    padding-top: 5px;
 }
 
 aside.left p {
@@ -93,13 +94,39 @@ aside.right{
     margin-right: 5%; 
     border: 10px double rgb(44, 100, 213);
     border-radius: 20px;
-
 }
 
 /* Section */
 section{
     clear: both;
+    perspective: 600px;
 }
+ /* section.house img{
+     display: block;
+     width: 240px;
+     height: 200px;
+ } */
 
+figure::after{
+     content: "";
+     clear: both;
+     display: table;
+ }
+
+figure {
+    width: 30%;    
+    display: inline-block;
+ }
+
+/* !!!!!IDEEEEESSS!!!! */
+
+
+section.house figcaption{
+     width: 100%;
+     text-align: center;
+ }
+ 
+ 
+ 
 
 
